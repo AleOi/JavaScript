@@ -1,0 +1,32 @@
+body{
+    border: 2px solid blue;
+    margin: 0pt;
+    padding: 0pt;
+}
+
+.Container{
+    position: relative;
+    border: 2px solid red;
+    padding: 0pt;
+    height: 50vh;
+    background-image: radial-gradient(white, black)
+
+}
+
+img:nth-child(1){
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+img:nth-child(2){
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+img:nth-child(3){
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
